@@ -1,0 +1,7 @@
+# 自定义配置
+wusthelper:
+  wustyjs:
+    # 设置验证码数据集位置, 将其放入linux服务器的相关位置
+    tessdataPath: /springboot/wustyjs/tessdata
+    # 设置不需要token验证的url, 用逗号分隔
+    skip-authenticate-urls: /wustyjs/login, /test.*?, /doc.html, /webjars.*?, /swagger-resources.*?, /v2/.*?
