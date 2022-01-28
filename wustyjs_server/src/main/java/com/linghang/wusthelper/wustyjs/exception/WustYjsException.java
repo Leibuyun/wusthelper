@@ -1,7 +1,7 @@
 package com.linghang.wusthelper.wustyjs.exception;
 
 
-public class WustYjsException extends RuntimeException{
+public class WustYjsException extends RuntimeException {
 
     private Integer code;
 

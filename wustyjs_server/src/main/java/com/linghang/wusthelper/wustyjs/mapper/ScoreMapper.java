@@ -1,15 +1,15 @@
 package com.linghang.wusthelper.wustyjs.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.linghang.wusthelper.wustyjs.dto.ScoreDto;
 import com.linghang.wusthelper.wustyjs.entity.Score;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
 /**
  * <p>
- *  Mapper 接口
+ * Mapper 接口
  * </p>
  *
  * @author lby

@@ -1,11 +1,11 @@
 package com.linghang.wusthelper.wustyjs.mapper;
 
-import com.linghang.wusthelper.wustyjs.entity.Student;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.linghang.wusthelper.wustyjs.entity.Student;
 
 /**
  * <p>
- *  Mapper 接口
+ * Mapper 接口
  * </p>
  *
  * @author lby

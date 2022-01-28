@@ -1,7 +1,6 @@
 package com.linghang.wusthelper.wustyjs.filter;
 
 import com.alibaba.fastjson.JSONObject;
-import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.linghang.wusthelper.wustyjs.response.ResponseCode;
 import com.linghang.wusthelper.wustyjs.response.ResponseVO;
 import com.linghang.wusthelper.wustyjs.utils.JwtUtil;
@@ -26,7 +25,9 @@ public class TokenFilter implements Filter {
 
     private static final Pattern PATTERN = Pattern.compile(".*().*");
 
-    /** 跳过token验证和权限验证的url清单*/
+    /**
+     * 跳过token验证和权限验证的url清单
+     */
     @Value("#{'${wusthelper.wustyjs.skip-authenticate-urls}'.split(',')}")
     private List<String> skipAuthenticateUrls;
 
@@ -77,10 +78,10 @@ public class TokenFilter implements Filter {
         }
 
         // 验证token
-        try{
+        try {
             JwtUtil.verify(token);
             filterChain.doFilter(request, response);
-        }catch (Exception e){
+        } catch (Exception e) {
             error(response, ResponseCode.TokenExpired);
         }
     }

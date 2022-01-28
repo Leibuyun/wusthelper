@@ -18,7 +18,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
     @Bean
-    public Docket webApiConfig(){
+    public Docket webApiConfig() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .groupName("webApi")
                 .apiInfo(webApiInfo())
@@ -28,11 +28,11 @@ public class SwaggerConfig {
                 .build();
     }
 
-    private ApiInfo webApiInfo(){
+    private ApiInfo webApiInfo() {
         return new ApiInfoBuilder()
                 .title("wustyjs-api文档")
                 .version("1.0")
-                .contact(new Contact("lby", "https://leibuyun.github.io/", "508222866@qq.com"))
+                .contact(new Contact("lby", "https://github.com/Leibuyun/wusthelper", "508222866@qq.com"))
                 .build();
     }
 

@@ -10,10 +10,8 @@ import com.linghang.wusthelper.wustyjs.service.SpiderService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,13 +54,13 @@ public class TestController {
 
     @GetMapping("student/{studentNum}")
     @ApiOperation(value = "获取学生信息的data")
-    public Student getStudent(@PathVariable("studentNum") String studentNum){
+    public Student getStudent(@PathVariable("studentNum") String studentNum) {
         return studentService.getStudent(studentNum);
     }
 
     @GetMapping("score/{studentNum}")
     @ApiOperation(value = "获取成绩信息的data")
-    public List<ScoreDto> getScore(@PathVariable("studentNum") String studentNum){
+    public List<ScoreDto> getScore(@PathVariable("studentNum") String studentNum) {
         return scoreService.getScores(studentNum);
     }
 

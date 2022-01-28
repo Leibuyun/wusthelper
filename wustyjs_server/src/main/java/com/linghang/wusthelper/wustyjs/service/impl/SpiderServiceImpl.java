@@ -1,7 +1,6 @@
 package com.linghang.wusthelper.wustyjs.service.impl;
 
 import com.auth0.jwt.JWT;
-import com.auth0.jwt.exceptions.TokenExpiredException;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.linghang.wusthelper.wustyjs.dto.ScoreDto;
@@ -20,7 +19,6 @@ import lombok.extern.slf4j.Slf4j;
 import net.sourceforge.tess4j.Tesseract;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
 import org.apache.hc.client5.http.classic.methods.HttpPost;
-
 import org.apache.hc.client5.http.entity.UrlEncodedFormEntity;
 import org.apache.hc.client5.http.fluent.Form;
 import org.apache.hc.client5.http.fluent.Request;
@@ -39,14 +37,17 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.*;
 import java.util.List;
+import java.util.*;
+import java.util.concurrent.Semaphore;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @Service
 @Slf4j
 public class SpiderServiceImpl implements SpiderService {
+
+    Semaphore semaphore = new Semaphore(1); // 定义资源的总数量
 
     @Autowired
     private CloseableHttpClient httpClient;
@@ -65,6 +66,7 @@ public class SpiderServiceImpl implements SpiderService {
     /**
      * 登录
      * username: 学号
+     *
      * @return token
      */
     @Override
@@ -188,7 +190,16 @@ public class SpiderServiceImpl implements SpiderService {
                         bufferedImage.setRGB(i, j, white);
                 }
             }
-            String result = tesseract.doOCR(bufferedImage).replaceAll("\\D", "");// 去除所有的非数字
+            int available = semaphore.availablePermits();
+            String result = "";
+            try {
+                semaphore.acquire(1);
+                result = tesseract.doOCR(bufferedImage).replaceAll("\\D", "");// 去除所有的非数字
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } finally {
+                semaphore.release(1);
+            }
 //            ImageIO.write(bufferedImage, "png", new File(fileName));// 覆盖原来的图片
             return result;
         } catch (Exception e) {
@@ -311,8 +322,8 @@ public class SpiderServiceImpl implements SpiderService {
         String username = decode.getClaim("username").asString();
         String cookie = decode.getClaim("cookie").asString();
         boolean updateBoolean = false;
-        try{
-            if (cookie != null && validCookie(cookie)){
+        try {
+            if (cookie != null && validCookie(cookie)) {
                 Pattern patternUpdatePassword = Pattern.compile("<script language=javascript>alert\\('(?<alert>.*?)!");
                 updateBoolean = Request.post(WustyjsUrl.UPDATE_PASSWORD_RUL)
                         .addHeader("cookie", cookie)
@@ -332,11 +343,11 @@ public class SpiderServiceImpl implements SpiderService {
                             return matcherUpdatePassword.find() && matcherUpdatePassword.group("alert").equals("保存成功");
                         });
                 // 数据库的账号密码会在下次登录成功后修改, 这里就不保存了
-                if (updateBoolean){
+                if (updateBoolean) {
                     log.info(username + "修改了密码");
                 }
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             updateBoolean = false;// 网络异常或者cookie失效, 则不更新
         }
         return ResponseVO.custom().success().data(updateBoolean).build();

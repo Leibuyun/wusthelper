@@ -1,7 +1,5 @@
 package com.linghang.wusthelper.wustyjs.response;
 
-import io.swagger.annotations.ApiModel;
-
 public interface ResponseCode {
 
     Integer DEFAULT = 70000;

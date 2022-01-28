@@ -1,7 +1,5 @@
 package com.linghang.wusthelper.wustyjs.exception.advice;
 
-import com.auth0.jwt.exceptions.AlgorithmMismatchException;
-import com.auth0.jwt.exceptions.SignatureVerificationException;
 import com.linghang.wusthelper.wustyjs.exception.WustYjsException;
 import com.linghang.wusthelper.wustyjs.response.ResponseCode;
 import com.linghang.wusthelper.wustyjs.response.ResponseVO;

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class Tess4jConfig {
 
     @Bean
-    public Tesseract createTesseract(@Value("${wusthelper.wustyjs.tessdataPath}") String dataPath){
+    public Tesseract createTesseract(@Value("${wusthelper.wustyjs.tessdataPath}") String dataPath) {
         Tesseract tesseract = new Tesseract();
         tesseract.setDatapath(dataPath);
         return tesseract;

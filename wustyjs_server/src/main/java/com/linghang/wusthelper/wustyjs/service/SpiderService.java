@@ -1,9 +1,7 @@
 package com.linghang.wusthelper.wustyjs.service;
 
-import com.linghang.wusthelper.wustyjs.entity.Student;
 import com.linghang.wusthelper.wustyjs.response.ResponseVO;
 
-import java.io.IOException;
 import java.util.Map;
 
 public interface SpiderService {

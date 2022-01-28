@@ -14,10 +14,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
-/**
- * @author lby
- * @since 2022-01-25
- */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
