@@ -1,0 +1,733 @@
+2022-02-06 16:50:16.560 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 16:50:16.563 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 6352 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 16:50:16.563 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 16:50:17.631 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 16:50:17.632 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 16:50:17.632 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 16:50:17.632 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 16:50:17.632 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 16:50:17.635 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 16:50:17.641 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:50:17.641 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 16:50:17.642 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 16:50:17.709 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 16:50:17.709 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1097 ms
+2022-02-06 16:50:17.732 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-06 16:50:17.744 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-06 16:52:41.741 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 16:52:41.741 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 14568 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 16:52:41.743 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 16:52:42.682 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 16:52:42.683 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 16:52:42.683 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 16:52:42.683 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 16:52:42.683 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 16:52:42.685 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 16:52:42.693 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:52:42.693 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 16:52:42.693 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 16:52:42.757 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 16:52:42.757 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 964 ms
+2022-02-06 16:52:43.966 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 16:52:44.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:52:44.148 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 16:52:44.149 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 16:52:44.166 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 16:52:44.188 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 16:52:44.273 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.89 seconds (JVM running for 3.307)
+2022-02-06 16:53:18.489 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 1148 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 16:53:18.488 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 16:53:18.491 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 16:53:19.450 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 16:53:19.451 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 16:53:19.451 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 16:53:19.451 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 16:53:19.452 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 16:53:19.454 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 16:53:19.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:53:19.459 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 16:53:19.459 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 16:53:19.526 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 16:53:19.527 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 985 ms
+2022-02-06 16:53:20.701 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 16:53:20.866 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:53:20.876 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 16:53:20.877 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 16:53:20.892 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 16:53:20.911 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 16:53:20.995 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.865 seconds (JVM running for 3.282)
+2022-02-06 16:54:17.933 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 16:54:17.934 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 19912 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 16:54:17.935 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 16:54:18.908 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 16:54:18.909 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 16:54:18.909 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 16:54:18.909 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 16:54:18.909 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 16:54:18.911 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 16:54:18.917 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:54:18.917 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 16:54:18.917 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 16:54:18.988 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 16:54:18.988 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1002 ms
+2022-02-06 16:54:20.161 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 16:54:20.328 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:54:20.338 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 16:54:20.339 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 16:54:20.355 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 16:54:20.374 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 16:54:20.460 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.899 seconds (JVM running for 3.326)
+2022-02-06 16:54:35.541 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 14140 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 16:54:35.540 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 16:54:35.543 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 16:54:36.535 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 16:54:36.536 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 16:54:36.536 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 16:54:36.536 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 16:54:36.537 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 16:54:36.539 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 16:54:36.544 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:54:36.544 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 16:54:36.544 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 16:54:36.611 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 16:54:36.612 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
+2022-02-06 16:54:37.840 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 16:54:38.010 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 16:54:38.021 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 16:54:38.022 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 16:54:38.032 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 16:54:38.055 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 16:54:38.135 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.974 seconds (JVM running for 3.424)
+2022-02-06 16:54:55.734 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 16:54:55.735 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - Starting WustYjsApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 1748 (F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 16:54:55.736 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - The following profiles are active: dev
+2022-02-06 16:54:56.783 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8333 (http)
+2022-02-06 16:54:56.783 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 16:54:56.783 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 16:54:56.784 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 16:54:56.784 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 16:54:56.786 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 16:54:56.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8333"]
+2022-02-06 16:54:56.792 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 16:54:56.792 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 16:54:56.863 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustyjs] - Initializing Spring embedded WebApplicationContext
+2022-02-06 16:54:56.863 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+2022-02-06 16:54:56.884 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-06 16:54:56.895 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-06 16:55:41.003 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - Starting WustYjsApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 13568 (F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 16:55:41.002 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 16:55:41.004 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - The following profiles are active: dev
+2022-02-06 16:55:42.034 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8333 (http)
+2022-02-06 16:55:42.034 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 16:55:42.035 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 16:55:42.035 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 16:55:42.035 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 16:55:42.037 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 16:55:42.042 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8333"]
+2022-02-06 16:55:42.042 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 16:55:42.042 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 16:55:42.111 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustyjs] - Initializing Spring embedded WebApplicationContext
+2022-02-06 16:55:42.111 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1066 ms
+2022-02-06 16:55:42.979 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 16:55:43.131 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8333"]
+2022-02-06 16:55:43.141 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8333 (http) with context path '/wustyjs'
+2022-02-06 16:55:43.142 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 16:55:43.152 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 16:55:43.173 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 16:55:43.281 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - Started WustYjsApplication in 2.669 seconds (JVM running for 2.962)
+2022-02-06 17:48:21.628 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 17:48:21.628 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - Starting WustYjsApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 7160 (F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 17:48:21.630 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - The following profiles are active: dev
+2022-02-06 17:48:22.710 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8333 (http)
+2022-02-06 17:48:22.712 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 17:48:22.712 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 17:48:22.712 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 17:48:22.712 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 17:48:22.714 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 17:48:22.720 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8333"]
+2022-02-06 17:48:22.721 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 17:48:22.721 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 17:48:22.793 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustyjs] - Initializing Spring embedded WebApplicationContext
+2022-02-06 17:48:22.793 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1121 ms
+2022-02-06 17:48:23.703 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 17:48:23.868 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8333"]
+2022-02-06 17:48:23.878 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8333 (http) with context path '/wustyjs'
+2022-02-06 17:48:23.879 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 17:48:23.890 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 17:48:23.909 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 17:48:24.025 [main] INFO  com.linghang.wusthelper.wustyjs.WustYjsApplication - Started WustYjsApplication in 2.784 seconds (JVM running for 3.078)
+2022-02-06 17:49:19.910 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 17004 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 17:49:19.910 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 17:49:19.912 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 17:49:20.883 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 17:49:20.884 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 17:49:20.884 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 17:49:20.885 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 17:49:20.885 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 17:49:20.887 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 17:49:20.892 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:49:20.893 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 17:49:20.893 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 17:49:20.960 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 17:49:20.961 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1000 ms
+2022-02-06 17:49:22.131 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 17:49:22.304 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:49:22.315 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 17:49:22.316 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 17:49:22.326 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 17:49:22.350 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 17:49:22.433 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.879 seconds (JVM running for 3.3)
+2022-02-06 17:49:26.821 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 17:49:26.821 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 17:49:26.822 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 17:49:26.955 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 17:49:27.049 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 17:52:24.701 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 17:52:24.702 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 2180 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 17:52:24.703 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 17:52:25.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 17:52:25.642 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 17:52:25.645 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 17:52:25.645 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 17:52:25.645 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 17:52:25.647 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 17:52:25.652 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:52:25.652 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 17:52:25.652 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 17:52:25.716 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 17:52:25.716 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 966 ms
+2022-02-06 17:52:26.871 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 17:52:27.039 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:52:27.050 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 17:52:27.050 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 17:52:27.062 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 17:52:27.086 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 17:52:27.171 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.833 seconds (JVM running for 3.238)
+2022-02-06 17:52:32.305 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 17:52:32.305 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 17:52:32.306 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-02-06 17:52:32.398 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 17:52:32.483 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 17:53:28.175 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 16448 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 17:53:28.174 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 17:53:28.177 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 17:53:29.161 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 17:53:29.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 17:53:29.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 17:53:29.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 17:53:29.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 17:53:29.165 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 17:53:29.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:53:29.171 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 17:53:29.172 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 17:53:29.242 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 17:53:29.242 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1014 ms
+2022-02-06 17:53:30.439 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 17:53:30.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:53:30.621 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 17:53:30.622 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 17:53:30.632 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 17:53:30.656 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 17:53:30.744 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.95 seconds (JVM running for 3.364)
+2022-02-06 17:53:35.521 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 17:53:35.521 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 17:53:35.522 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 17:53:35.617 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 17:53:35.698 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 17:53:55.297 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 17:53:55.298 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 19616 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 17:53:55.299 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 17:53:56.260 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 17:53:56.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 17:53:56.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 17:53:56.261 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 17:53:56.261 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 17:53:56.263 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 17:53:56.268 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:53:56.268 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 17:53:56.268 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 17:53:56.335 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 17:53:56.335 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 988 ms
+2022-02-06 17:53:57.508 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 17:53:57.692 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 17:53:57.702 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 17:53:57.703 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 17:53:57.719 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 17:53:57.738 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 17:53:57.827 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.891 seconds (JVM running for 3.304)
+2022-02-06 17:54:16.407 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 17:54:16.407 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 17:54:16.408 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 17:54:16.535 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 17:54:16.615 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 21:20:09.395 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 9700 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 21:20:09.394 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 21:20:09.396 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 21:20:10.360 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 21:20:10.361 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 21:20:10.361 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 21:20:10.361 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 21:20:10.361 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 21:20:10.363 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 21:20:10.368 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:20:10.369 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 21:20:10.369 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 21:20:10.436 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 21:20:10.436 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 991 ms
+2022-02-06 21:20:11.604 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 21:20:11.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:20:11.779 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 21:20:11.780 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 21:20:11.790 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 21:20:11.808 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 21:20:11.896 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.875 seconds (JVM running for 3.292)
+2022-02-06 21:20:22.968 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 21:20:22.968 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 21:20:22.969 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 21:20:23.104 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 21:20:23.187 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 21:41:56.509 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 21:41:56.511 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 15436 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 21:41:56.512 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 21:41:57.661 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 21:41:57.662 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 21:41:57.662 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 21:41:57.662 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 21:41:57.662 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 21:41:57.664 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 21:41:57.675 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:41:57.676 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 21:41:57.676 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 21:41:57.749 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 21:41:57.749 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1188 ms
+2022-02-06 21:41:59.157 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 21:41:59.373 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:41:59.396 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 21:41:59.397 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 21:41:59.409 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 21:41:59.432 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 21:41:59.542 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 3.462 seconds (JVM running for 4.265)
+2022-02-06 21:42:07.754 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 21:42:07.754 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 21:42:07.755 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 21:42:07.928 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 21:42:08.038 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 21:44:46.394 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 21:44:46.395 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 20252 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 21:44:46.396 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 21:44:47.343 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 21:44:47.344 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 21:44:47.345 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 21:44:47.345 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 21:44:47.345 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 21:44:47.347 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 21:44:47.352 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:44:47.352 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 21:44:47.353 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 21:44:47.416 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 21:44:47.416 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 971 ms
+2022-02-06 21:44:48.572 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 21:44:48.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:44:48.750 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 21:44:48.751 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 21:44:48.762 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 21:44:48.784 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 21:44:48.867 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.831 seconds (JVM running for 3.244)
+2022-02-06 21:44:53.231 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 21:44:53.231 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 21:44:53.232 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-02-06 21:44:53.326 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 21:44:53.413 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 21:48:03.383 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 21:48:03.384 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 20248 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 21:48:03.385 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 21:48:04.320 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 21:48:04.321 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 21:48:04.321 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 21:48:04.321 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 21:48:04.321 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 21:48:04.323 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 21:48:04.328 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:48:04.328 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 21:48:04.329 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 21:48:04.391 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 21:48:04.391 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 957 ms
+2022-02-06 21:48:05.562 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 21:48:05.735 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:48:05.744 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 21:48:05.745 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 21:48:05.760 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 21:48:05.779 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 21:48:05.863 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.838 seconds (JVM running for 3.246)
+2022-02-06 21:48:28.254 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 21:48:28.254 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 21:48:28.255 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 21:48:31.784 [http-nio-8334-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 21:48:31.868 [http-nio-8334-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 21:52:42.100 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 21:52:42.104 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 18092 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 21:52:42.104 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 21:52:43.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 21:52:43.236 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 21:52:43.236 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 21:52:43.236 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 21:52:43.236 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 21:52:43.238 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 21:52:43.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:52:43.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 21:52:43.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 21:52:43.322 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 21:52:43.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1166 ms
+2022-02-06 21:52:44.709 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 21:52:44.920 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:52:44.932 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 21:52:44.933 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 21:52:44.956 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 21:52:44.979 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 21:52:45.126 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 3.48 seconds (JVM running for 3.978)
+2022-02-06 21:52:47.592 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 21:52:47.592 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 21:52:47.593 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 21:52:59.158 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 21:52:59.589 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 21:54:54.659 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-06 21:54:54.665 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-06 21:54:57.053 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 21:54:57.057 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 3036 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 21:54:57.057 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 21:54:58.181 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 21:54:58.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 21:54:58.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 21:54:58.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 21:54:58.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 21:54:58.184 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 21:54:58.190 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:54:58.191 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 21:54:58.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 21:54:58.267 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 21:54:58.267 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+2022-02-06 21:54:59.647 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 21:54:59.861 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:54:59.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 21:54:59.874 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 21:54:59.898 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 21:54:59.920 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 21:55:00.032 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 3.424 seconds (JVM running for 3.921)
+2022-02-06 21:55:02.822 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 21:55:02.822 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 21:55:02.823 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 21:55:02.986 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 21:55:03.087 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 21:56:33.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-06 21:56:33.658 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-06 21:57:32.099 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 21:57:32.103 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 8264 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 21:57:32.103 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 21:57:33.233 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 21:57:33.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 21:57:33.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 21:57:33.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 21:57:33.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 21:57:33.236 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 21:57:33.242 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:57:33.243 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 21:57:33.243 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 21:57:33.326 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 21:57:33.327 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1173 ms
+2022-02-06 21:57:34.734 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 21:57:34.945 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 21:57:34.957 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 21:57:34.957 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 21:57:34.970 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 21:57:35.003 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 21:57:35.104 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 3.444 seconds (JVM running for 3.959)
+2022-02-06 21:57:36.050 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 21:57:36.050 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 21:57:36.051 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 21:57:36.162 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 21:57:36.277 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:01:40.758 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-06 22:01:40.767 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-06 22:02:00.099 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:02:00.099 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 10456 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:02:00.101 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:02:01.084 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:02:01.085 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:02:01.085 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:02:01.085 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:02:01.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:02:01.088 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:02:01.093 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:02:01.093 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:02:01.093 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:02:01.156 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:02:01.156 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1016 ms
+2022-02-06 22:02:02.317 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:02:02.493 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:02:02.504 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:02:02.504 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:02:02.515 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:02:02.534 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:02:02.625 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.899 seconds (JVM running for 3.288)
+2022-02-06 22:02:05.631 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:02:05.631 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:02:05.632 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:02:05.731 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:02:05.814 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:03:37.268 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:03:37.271 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 12500 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:03:37.271 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:03:38.380 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:03:38.381 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:03:38.381 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:03:38.381 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:03:38.381 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:03:38.383 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:03:38.389 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:03:38.390 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:03:38.390 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:03:38.473 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:03:38.473 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1155 ms
+2022-02-06 22:03:39.867 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:03:40.079 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:03:40.091 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:03:40.092 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:03:40.104 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:03:40.138 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:03:40.252 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 3.417 seconds (JVM running for 3.916)
+2022-02-06 22:03:43.708 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:03:43.708 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:03:43.709 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:03:43.831 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:03:44.000 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:06:09.145 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-06 22:06:09.152 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-06 22:06:11.273 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:06:11.274 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 15620 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:06:11.275 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:06:12.251 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:06:12.251 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:06:12.252 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:06:12.252 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:06:12.252 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:06:12.253 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:06:12.258 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:06:12.259 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:06:12.259 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:06:12.322 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:06:12.323 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1007 ms
+2022-02-06 22:06:13.502 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:06:13.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:06:13.686 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:06:13.687 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:06:13.698 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:06:13.717 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:06:13.805 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.911 seconds (JVM running for 3.282)
+2022-02-06 22:06:25.507 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:06:25.507 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:06:25.508 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:06:25.617 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:06:25.702 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:07:18.509 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:07:18.511 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 10196 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:07:18.511 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:07:19.465 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:07:19.466 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:07:19.467 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:07:19.467 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:07:19.467 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:07:19.469 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:07:19.474 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:07:19.474 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:07:19.474 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:07:19.540 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:07:19.540 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 979 ms
+2022-02-06 22:07:20.709 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:07:20.877 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:07:20.886 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:07:20.887 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:07:20.899 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:07:20.918 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:07:21.012 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.863 seconds (JVM running for 3.273)
+2022-02-06 22:07:23.075 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:07:23.075 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:07:23.076 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:07:23.167 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:07:23.252 [http-nio-8334-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:16:01.489 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:16:01.490 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 16540 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:16:01.491 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:16:02.487 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:16:02.488 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:16:02.488 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:16:02.488 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:16:02.488 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:16:02.490 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:16:02.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:16:02.496 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:16:02.496 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:16:02.563 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:16:02.563 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1032 ms
+2022-02-06 22:16:03.763 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:16:03.934 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:16:03.949 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:16:03.950 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:16:03.960 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:16:03.980 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:16:04.068 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.973 seconds (JVM running for 3.359)
+2022-02-06 22:16:25.337 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:16:25.337 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:16:25.338 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:16:28.830 [http-nio-8334-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:16:28.914 [http-nio-8334-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:17:27.497 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:17:27.497 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 8636 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:17:27.499 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:17:28.477 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:17:28.478 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:17:28.478 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:17:28.478 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:17:28.478 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:17:28.481 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:17:28.486 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:17:28.486 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:17:28.486 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:17:28.552 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:17:28.552 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1015 ms
+2022-02-06 22:17:29.733 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:17:29.909 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:17:29.918 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:17:29.919 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:17:29.930 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:17:29.949 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:17:30.040 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.911 seconds (JVM running for 3.285)
+2022-02-06 22:17:34.783 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:17:34.783 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:17:34.784 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:17:34.880 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:17:34.961 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:18:45.667 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:18:45.667 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 7588 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:18:45.669 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:18:46.803 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:18:46.803 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:18:46.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:18:46.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:18:46.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:18:46.806 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:18:46.814 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:18:46.817 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:18:46.818 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:18:46.890 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:18:46.891 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1174 ms
+2022-02-06 22:18:48.267 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:18:48.474 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:18:48.486 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:18:48.486 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:18:48.510 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:18:48.533 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:18:48.681 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 3.459 seconds (JVM running for 3.955)
+2022-02-06 22:18:51.383 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:18:51.384 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:18:51.385 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:18:51.501 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:18:51.607 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:20:12.589 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:20:12.592 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 5964 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:20:12.593 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:20:13.574 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:20:13.575 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:20:13.575 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:20:13.575 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:20:13.576 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:20:13.578 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:20:13.583 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:20:13.583 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:20:13.584 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:20:13.649 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:20:13.649 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1017 ms
+2022-02-06 22:20:14.839 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:20:15.027 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:20:15.037 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:20:15.037 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:20:15.048 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:20:15.067 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:20:15.157 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.93 seconds (JVM running for 3.306)
+2022-02-06 22:20:20.159 [http-nio-8334-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:20:20.159 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:20:20.160 [http-nio-8334-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:20:20.255 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-06 22:20:20.334 [http-nio-8334-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-06 22:29:01.348 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 18792 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:29:01.346 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:29:01.349 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:29:02.337 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:29:02.337 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:29:02.337 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:29:02.338 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:29:02.338 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:29:02.340 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:29:02.345 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:29:02.345 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:29:02.345 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:29:02.412 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:29:02.412 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1012 ms
+2022-02-06 22:29:03.594 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:29:03.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:29:03.784 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:29:03.785 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:29:03.796 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:29:03.815 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:29:03.910 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.933 seconds (JVM running for 3.348)
+2022-02-06 22:29:23.643 [http-nio-8334-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:29:23.644 [http-nio-8334-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:29:23.645 [http-nio-8334-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 22:35:17.190 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 22:35:17.191 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 3720 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 22:35:17.192 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 22:35:18.161 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 22:35:18.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 22:35:18.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 22:35:18.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 22:35:18.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 22:35:18.164 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 22:35:18.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:35:18.169 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 22:35:18.170 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 22:35:18.233 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 22:35:18.234 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1002 ms
+2022-02-06 22:35:19.397 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 22:35:19.578 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 22:35:19.587 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 22:35:19.588 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 22:35:19.598 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 22:35:19.618 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 22:35:19.719 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.894 seconds (JVM running for 3.272)
+2022-02-06 22:35:22.483 [http-nio-8334-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-06 22:35:22.483 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-06 22:35:22.484 [http-nio-8334-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-06 23:36:36.724 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Starting WustLibApplication using Java 1.8.0_271 on DESKTOP-JUI40V8 with PID 16992 (F:\JavaProjects\linghang\wusthelper\wustlib_server\target\classes started by Leibuyun in F:\JavaProjects\linghang\wusthelper)
+2022-02-06 23:36:36.723 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-06 23:36:36.725 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - The following profiles are active: dev
+2022-02-06 23:36:37.677 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8334 (http)
+2022-02-06 23:36:37.677 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-06 23:36:37.677 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-02-06 23:36:37.678 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-02-06 23:36:37.678 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-06 23:36:37.680 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-02-06 23:36:37.687 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8334"]
+2022-02-06 23:36:37.687 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-06 23:36:37.687 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-06 23:36:37.751 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wustlib] - Initializing Spring embedded WebApplicationContext
+2022-02-06 23:36:37.751 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 976 ms
+2022-02-06 23:36:38.939 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-02-06 23:36:39.116 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8334"]
+2022-02-06 23:36:39.126 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8334 (http) with context path '/wustlib'
+2022-02-06 23:36:39.127 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-02-06 23:36:39.143 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-02-06 23:36:39.162 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-02-06 23:36:39.260 [main] INFO  com.linghang.wusthelper.wustlib.WustLibApplication - Started WustLibApplication in 2.904 seconds (JVM running for 3.328)

@@ -1,8 +1,8 @@
 package com.linghang.wusthelper.wustyjs.controller;
 
-import com.linghang.wusthelper.wustyjs.dto.LoginDto;
-import com.linghang.wusthelper.wustyjs.response.ResponseVO;
-import com.linghang.wusthelper.wustyjs.service.SpiderService;
+import com.linghang.wusthelper.base.dto.LoginDto;
+import com.linghang.wusthelper.base.response.ResponseVO;
+import com.linghang.wusthelper.wustyjs.service.WustyjsSpiderService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -15,12 +15,12 @@ import java.util.regex.Pattern;
 
 
 @RestController
-@RequestMapping("/wustyjs")
+@RequestMapping("/")
 @Api(tags = {"爬虫服务"})
 public class WustSpiderController {
 
     @Autowired
-    private SpiderService spiderService;
+    private WustyjsSpiderService wustyjsSpiderService;
 
     @PostMapping("login")
     @ApiOperation(value = "登录请求", notes = "获取wustyjsToken")
@@ -31,7 +31,7 @@ public class WustSpiderController {
             @ApiResponse(code = 70005, message = "后端服务有未捕获的异常. 70006以上均为非法请求或者参数校验不合法"),
     })
     public ResponseVO login(@Validated @RequestBody LoginDto user) {
-        return spiderService.login(user.getUsername(), user.getPassword());
+        return wustyjsSpiderService.login(user.getUsername(), user.getPassword());
     }
 
     @GetMapping("student")
@@ -42,7 +42,7 @@ public class WustSpiderController {
             @ApiResponse(code = 70005, message = "后端服务有未捕获的异常. 70006以上均为非法请求或者参数校验不合法"),
     })
     public ResponseVO getStudentInfo(@RequestHeader(value = "wustyjsToken") String wustyjsToken) {
-        return spiderService.getStudent(wustyjsToken);
+        return wustyjsSpiderService.getStudent(wustyjsToken);
     }
 
     @GetMapping("scores")
@@ -53,7 +53,7 @@ public class WustSpiderController {
             @ApiResponse(code = 70005, message = "后端服务有未捕获的异常. 70006以上均为非法请求或者参数校验不合法"),
     })
     public ResponseVO getScores(@RequestHeader(value = "wustyjsToken") String wustyjsToken) {
-        return spiderService.getScores(wustyjsToken);
+        return wustyjsSpiderService.getScores(wustyjsToken);
     }
 
     // 修改密码, 新密码要求同时包含字母和数字, 8~15位
@@ -69,6 +69,6 @@ public class WustSpiderController {
         Pattern patternnewPassword = Pattern.compile("^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]{8,15}$");
         if (!patternnewPassword.matcher(newPassword).matches())
             return ResponseVO.custom().success().message("新密码不合法").data(false).build();
-        return spiderService.updatePassword(wustyjsToken, newPassword);
+        return wustyjsSpiderService.updatePassword(wustyjsToken, newPassword);
     }
 }

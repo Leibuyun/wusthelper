@@ -1,0 +1,51 @@
+2022-02-01 17:09:35.868 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field scoreService in com.linghang.wusthelper.wustyjs.controller.TestController required a single bean, but 2 were found:
+	- scoreServiceImpl: defined in file [F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes\com\linghang\wusthelper\wustyjs\service\impl\ScoreServiceImpl.class]
+	- IScoreService: defined in file [F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes\com\linghang\wusthelper\wustyjs\service\IScoreService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2022-02-01 17:15:54.744 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field scoreService in com.linghang.wusthelper.wustyjs.controller.TestController required a single bean, but 2 were found:
+	- scoreServiceImpl: defined in file [F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes\com\linghang\wusthelper\wustyjs\service\impl\ScoreServiceImpl.class]
+	- IScoreService: defined in file [F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes\com\linghang\wusthelper\wustyjs\service\IScoreService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2022-02-01 17:16:46.220 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field studentService in com.linghang.wusthelper.wustyjs.controller.TestController required a single bean, but 2 were found:
+	- studentServiceImpl: defined in file [F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes\com\linghang\wusthelper\wustyjs\service\impl\StudentServiceImpl.class]
+	- IStudentService: defined in file [F:\JavaProjects\linghang\wusthelper\wustyjs_server\target\classes\com\linghang\wusthelper\wustyjs\service\IStudentService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+

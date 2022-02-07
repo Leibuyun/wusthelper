@@ -1,5 +1,7 @@
 server:
   port: 8333
+  servlet:
+    context-path: /wustyjs
 
 spring:
   datasource:
@@ -14,7 +16,7 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher   # 解决springboot高版本与swagger冲突的问题
   profiles:
-    # dev/prod
+#     dev/prod
     active: prod
 
 logging:

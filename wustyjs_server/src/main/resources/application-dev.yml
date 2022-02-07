@@ -3,5 +3,6 @@ wusthelper:
   wustyjs:
     # 设置验证码数据集位置, 设置为实际在磁盘上的路径
     tessdataPath: F:/JavaProjects/linghang/wusthelper/wustyjs_server/src/main/resources/tessdata
-    # 设置不需要token验证的url, 用逗号分隔, /doc.html访问api文档, 之后的路径是加载CSS资源
-    skip-authenticate-urls: /wustyjs/login, /test.*?, /doc.html, /webjars.*?, /swagger-resources.*?, /v2/.*?
+  verify:
+      # 设置不需要token验证的url, 用逗号分隔, /项目名/doc.html访问api文档(例如:localhost:8333/wustyjs/doc.html), 之后的路径是加载CSS资源
+    skip-authenticate-urls: /.*?/login, /.*?/test/*?, /doc.html, /webjars.*?, /swagger-resources.*?, /v2/.*?

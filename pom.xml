@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>wustyjs_server</module>
+        <module>wustlib_server</module>
+        <module>server_base</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -107,14 +109,5 @@
 
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

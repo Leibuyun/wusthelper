@@ -1,12 +1,12 @@
 package com.linghang.wusthelper.wustyjs.controller;
 
 
-import com.linghang.wusthelper.wustyjs.dto.ScoreDto;
-import com.linghang.wusthelper.wustyjs.entity.Student;
-import com.linghang.wusthelper.wustyjs.response.ResponseVO;
-import com.linghang.wusthelper.wustyjs.service.IScoreService;
-import com.linghang.wusthelper.wustyjs.service.IStudentService;
-import com.linghang.wusthelper.wustyjs.service.SpiderService;
+import com.linghang.wusthelper.base.dto.ScoreDto;
+import com.linghang.wusthelper.base.entity.Student;
+import com.linghang.wusthelper.base.response.ResponseVO;
+import com.linghang.wusthelper.base.service.IScoreService;
+import com.linghang.wusthelper.base.service.IStudentService;
+import com.linghang.wusthelper.wustyjs.service.WustyjsSpiderService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -23,7 +23,7 @@ import java.util.Map;
 public class TestController {
 
     @Autowired
-    private SpiderService spiderService;
+    private WustyjsSpiderService wustyjsSpiderService;
 
     @Autowired
     private IScoreService scoreService;
@@ -44,9 +44,9 @@ public class TestController {
         size = (size == null ? 1 : size);
         List<Map<String, String>> mapList = new ArrayList<>();
         for (int i = 0; i < size; ++i) {
-            final Map<String, String> map = spiderService.downloadYzm();
+            final Map<String, String> map = wustyjsSpiderService.downloadYzm();
             // 裁剪并且二值化, 如果想对比原图和二值化的图片, 去修改处理后的文件名
-            spiderService.clippingAndBinary(map.get("fileName"));
+            wustyjsSpiderService.clippingAndBinary(map.get("fileName"));
             mapList.add(map);
         }
         return ResponseVO.custom().success().data(mapList).build();
